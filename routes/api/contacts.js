@@ -12,8 +12,14 @@ router.get("/contact", (req, res) => {
 
 
 router.post("/contact" , (req,res) => {
- 
-console.log(req.body)
+  const contact = new Contact ({
+    name: req.body.name,
+    email: req.body.email,
+    message: req.body.message
+  });
+    contact.save()
+      .then(contact => res.json(contact))
+      .catch(err => console.log(err));
 });
 
 

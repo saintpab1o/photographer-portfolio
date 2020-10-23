@@ -6,6 +6,8 @@ const bodyParser = require("body-parser");
 const contact = require('./routes/api/contacts')
 
 
+
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 mongoose
