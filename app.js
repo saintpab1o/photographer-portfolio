@@ -2,8 +2,11 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const db = require("./config/keys").mongoURI;
-const contact = require("./routes/api/contact")
+const bodyParser = require("body-parser");
+const contact = require('./routes/api/contacts')
 
+
+app.use(bodyParser.json());
 
 mongoose
   .connect(db, { useNewUrlParser: true })
@@ -16,6 +19,8 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/contact", contact);
+
+
 
 const port = process.env.PORT || 5000;
 
