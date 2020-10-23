@@ -1,0 +1,18 @@
+#header-container{
+    max-height: 80px;
+}
+
+#header-text{
+    font-size: 18px;
+    color: gray;
+    margin-top: 12px;
+}
+
+
+#header-icon{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 11px;
+    color: black;
+    font-family: sans-serif;
+}
