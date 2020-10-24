@@ -1,8 +1,9 @@
+body{margin:0;}
+
+
 .group-images{
-   background-size: cover;
-   background-position: center center;
-   max-width: 1400px;
-   max-height: 800px;
+   max-width: 50%;
+   
 
   
 }
