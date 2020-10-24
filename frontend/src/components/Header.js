@@ -6,8 +6,8 @@ class Header extends React.Component{
         return (
           <div id="header-container" className="ui clearing segment">
             <div id="header-text-container">
-            <h3 id="header-icon" class="ui icon header">
-              <i class="photo icon"></i>
+            <h3 id="header-icon" className="ui icon header">
+              <i className="photo icon"></i>
             </h3>
               <h3 id="header-text" className="ui right floated header">
                 About

@@ -5,6 +5,7 @@ const db = require("./config/keys").mongoURI;
 const bodyParser = require("body-parser");
 const contact = require('./routes/api/contacts')
 const group = require('./routes/api/imageGroups')
+var cors = require("cors");
 
 
 
@@ -21,8 +22,10 @@ app.get("/", (req, res) => {
   res.send("Hello from Here");
 });
 
+
 app.use("/api", contact);
 app.use("/api", group);
+app.use(cors());
 
 
 
