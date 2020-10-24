@@ -9,6 +9,7 @@ var cors = require("cors");
 
 
 
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
@@ -17,6 +18,7 @@ mongoose
   .then(() => console.log("Connected to MongoDB successfully"))
   .catch((err) => console.log(err));
 
+  app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("Hello from Here");
@@ -25,11 +27,10 @@ app.get("/", (req, res) => {
 
 app.use("/api", contact);
 app.use("/api", group);
-app.use(cors());
 
 
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => console.log(`Server is running on port ${port}`));
 
