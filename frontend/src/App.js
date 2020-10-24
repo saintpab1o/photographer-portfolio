@@ -1,12 +1,18 @@
 import React from 'react';
 import Header from './components/Header';
+import ImageGroup from './components/ImageGroup';
+
 
 
 class App extends React.Component{
   render(){
     return (
-      <Header/>
-      )
+      <div>
+        <Header />
+        <ImageGroup/>
+       
+      </div>
+    );
   }
 }
 
