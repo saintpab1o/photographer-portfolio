@@ -17,6 +17,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.9",
+    "react-router-dom": "^5.2.0",
     "validator": "^13.1.17"
   },
   "devDependencies": {
