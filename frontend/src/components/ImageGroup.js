@@ -25,7 +25,7 @@ class ImageGroup extends React.Component {
       .then((responce) => {
         const data = responce.data;
         this.setState({groups: data})
-        console.log(this.state.groups)
+       
       })
       .catch(() => {
         alert("error retrieving data");
@@ -33,6 +33,7 @@ class ImageGroup extends React.Component {
   };
 
   render() {
+    
     return (
       <div onClick={() => this.getGroupImages()}>
         <img className="group-images" src={WTF} alt="wtfcity" />
