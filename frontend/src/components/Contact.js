@@ -17,9 +17,8 @@ class Contact extends React.Component{
                   customized to specifactions. Thanks for stopping by!
                 </p>
                 <div className="contact">
-                    <i class="fas fa-phone">631-555-9595</i>
-                    <br></br>
-                   <i class="fas fa-envelope">pm@pmshoots.com</i>
+                    <a href="#"><i class="fas fa-phone"></i> 631-555-5555</a>
+                    <a href="#"><i class="fas fa-envelope"></i> pm@pmshoots.com</a>
                     </div>
 
                   <div className="socials">
@@ -43,11 +42,11 @@ class Contact extends React.Component{
                   <h1>Quick Links</h1>
                   <br></br>
                   <ul>
-                    <li>About</li>
-                    <li>Events</li>
-                    <li>Catalog</li>
-                    <li>More</li>
-                
+                      <a href="#"><li>About</li></a>
+                      <a href="#"><li>Catalog</li></a>
+                      <a href="#"><li>Booking</li></a>
+                      <a href="#"><li>Terms and Conditions</li></a>
+                      <a href="#"><li>More</li></a>
                   </ul>
               </div>
 
@@ -55,8 +54,9 @@ class Contact extends React.Component{
                   <h1>Contact</h1>
                   <br></br>
                   <form action="index.html" method="post">
-                      <input className="text-input contact-input"type="email" name="email" placeholder="email"></input>
-                    <textarea name="message"  className="text-inputer contact-input" placeholder="Place your request here!"></textarea>
+                      <input className="text-input contact-input"type="email" name="name" placeholder="Name"></input>
+                      <input className="text-input contact-input"type="email" name="email" placeholder="E-mail"></input>
+                    <textarea name="message"  className="text-input contact-input" placeholder="Place your request here!"></textarea>
                     <button type="submit" class="btn btn-big">
                         <i class="fas fa-envelope"></i>
                         Send

@@ -38,6 +38,23 @@ html , body{
     width: 100%;
 }
 
-#footer-links{
-    color:white;
+#footer-links a{
+    color: whitesmoke;
+    
+   font-size: 18px;  
+}
+.contact a{
+    color: whitesmoke;
+    
+}
+
+.text-input{
+    padding: .5rem ;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    color: black;
+    line-height: 1.5rem;
+    outline: none;
+    border: 1px solid black;
 }
