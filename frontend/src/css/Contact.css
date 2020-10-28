@@ -10,8 +10,8 @@ html , body{
 }
 
 .footer{
-    background: rgb(134, 133, 133);
-    color: white;
+    background: #3b3b3b;
+    color: #e1e1e1;
     height: 350px;
     position: relative;
 }
@@ -28,7 +28,7 @@ html , body{
 }
  .footer .footer-bottom{
     background-color: gray;
-    color: whitesmoke;
+    color: #e1e1e1;
     height: 50px;
     text-align: center;
     position: absolute;
@@ -39,21 +39,28 @@ html , body{
 }
 
 #footer-links a{
-    color: whitesmoke;
-    
+     color: #e1e1e1;
    font-size: 18px;  
 }
 .contact a{
-    color: whitesmoke;
-    
+    color: #e1e1e1;  
 }
+
+.footer .footer-content .contact-form .contact-input{
+    background: #222222;
+    color: gray;
+    margin-bottom: 2px;
+    line-height: 1.7rem;
+    border: none;
+}
+
 
 .text-input{
     padding: .5rem ;
     display: block;
     width: 100%;
     border-radius: 5px;
-    color: black;
+    color: red;
     line-height: 1.5rem;
     outline: none;
     border: 1px solid black;
