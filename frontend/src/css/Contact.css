@@ -6,6 +6,7 @@ html , body{
     padding: 0px;
     margin: 0px; 
     font-family: sans-serif;
+    color: white;
 }
 
 .footer{
@@ -37,6 +38,6 @@ html , body{
     width: 100%;
 }
 
-.contact{
-    color: white;
+#footer-links{
+    color:white;
 }
