@@ -1,15 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px; 
+    font-family: sans-serif;
+}
+
 .footer{
-    background: gray;
+    background: rgb(134, 133, 133);
     color: white;
     height: 350px;
     position: relative;
 }
+.footer .footer-content{
+    border: 1px solid red;
+    height: 300px;
+    display: flex;
+}
 
- .footer-bottom{
-    background-color: darkgray;
+.footer .footer-content .footer-section{
+    flex: 1;
+    border: 1px solid white;
+    padding: 25px
+}
+ .footer .footer-bottom{
+    background-color: gray;
     color: whitesmoke;
     height: 50px;
     text-align: center;
     position: absolute;
     bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.contact{
+    color: white;
 }
