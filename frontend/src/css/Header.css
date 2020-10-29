@@ -1,19 +1,50 @@
-#header-container{
-    max-height: 75px;
+*{
+box-sizing: border-box;
 }
-
-#header-text{
-    font-size: 18px;
-    color: gray;
-    margin-top: 12px;
-    margin-left: 15px;
-}
-
-
-#header-icon{
-    margin-left: 50px;
-    margin-top: 5px;
-    font-size: 11px;
-    color: black;
+body {
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
+}
+
+.header *{
+    color: white;
+}
+.header{
+    background-color:#008489;
+    height: 80px;
+}
+.header .logo{
+    float: left;
+    height: inherit;
+    border:  1px solid red;
+}
+
+.header .logo-text span{
+   
+    color: #05f7ff
+}
+.header .menu-toggle{
+    display: none;
+}
+ 
+.header ul{
+    float: right;
+    border: 1px solid red;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+} 
+.header ul li a{
+    display: block;
+    padding: 21px;
+    font-size: 1.1em;
+}
+.header ul li a:hover{
+    background: #006669;
+    transition: .7s;
+  
+}
+.header ul li{
+    float: left;
 }

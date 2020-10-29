@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 html , body{
@@ -16,18 +16,20 @@ html , body{
     position: relative;
 }
 .footer .footer-content{
-    border: 1px solid red;
+   
     height: 300px;
     display: flex;
 }
 
 .footer .footer-content .footer-section{
     flex: 1;
-    border: 1px solid white;
+ 
     padding: 25px
 }
+
+
  .footer .footer-bottom{
-    background-color: gray;
+    background-color: #222222;
     color: #e1e1e1;
     height: 50px;
     text-align: center;
@@ -39,14 +41,22 @@ html , body{
 }
 
 #footer-links a{
-     color: #e1e1e1;
+    color: #e1e1e1;
    font-size: 18px;  
 }
 .contact a{
     color: #e1e1e1;  
 }
+.contact-form-container{
+  margin-top: 1.5%;
+}
+
+.logo-text span{
+    color: teal;
+}
 
 .footer .footer-content .contact-form .contact-input{
+    
     background: #222222;
     color: gray;
     margin-bottom: 2px;
@@ -60,8 +70,24 @@ html , body{
     display: block;
     width: 100%;
     border-radius: 5px;
-    color: red;
     line-height: 1.5rem;
     outline: none;
     border: 1px solid black;
 }
+
+
+
+.btn-big{
+    margin-top: 1%;
+    padding: .3rem;
+    line-height: 1.2rem;
+}
+.btn:hover{
+    color: white;
+    background-color: #222222;
+}
+
+
+.contact-btn{
+    float: right;
+} */

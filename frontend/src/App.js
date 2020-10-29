@@ -12,8 +12,8 @@ class App extends React.Component{
     return (
       <div>
         <Header />
-        <ImageGroup/>
-        <ImageList/>
+        {/* <ImageGroup/>
+        <ImageList/> */}
       <br></br>
       <br></br>
       <br></br>
