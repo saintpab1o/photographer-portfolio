@@ -36,7 +36,10 @@ header ul{
     margin: 0px;
     padding: 0px;
     list-style: none;
-    border: 1px solid red;
+}
+
+.showing{
+    max-height: 100em;
 }
 
 header ul li{
@@ -122,11 +125,9 @@ header .menu-toggle{
     position: absolute;
     right: 20px;
     top: 20px;
-    font-size: 1.5em;
+    font-size: 1.9em;
 }
 header .logo{
-    float: left;
-    height: inherit;
     margin-left: .5em;
 }
 

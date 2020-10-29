@@ -3,6 +3,9 @@ import '../css/Header.css';
 
 
 class Header extends React.Component{
+
+
+  
     render(){
         return (
           <header>
@@ -11,7 +14,7 @@ class Header extends React.Component{
                 <span>Head</span>shots
               </h1>
             </div>
-            <i class="fa fa-bars menu-toggle"></i>
+            <i id="menu-toggle" class="fa fa-bars menu-toggle"></i>
             <ul class="nav">
               <li>
                 <a href="#">Home</a>
