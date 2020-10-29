@@ -1,42 +1,45 @@
 import React from 'react';
 import '../css/Header.css';
 
+
 class Header extends React.Component{
     render(){
         return (
-          <div className="header">
-            <div className="logo">
-              <h1 className="logo-text">
+          <header>
+            <div class="logo">
+              <h1 class="logo-text">
                 <span>Head</span>shots
               </h1>
             </div>
+            <i class="fa fa-bars menu-toggle"></i>
+            <ul class="nav">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
 
-              <i id="bars" class="fa fa-bars menu-toggle"></i>
-            <div className="nav">
-              <ul>
-                <li>
-                  <a id="header-text" className="ui right floated header">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a id="header-text" className="ui right floated header">
-                    Catalog
-                  </a>
-                </li>
-                <li>
-                  <a id="header-text" className="ui right floated header">
-                    Booking
-                  </a>
-                </li>
-                <li>
-                  <a id="header-text" className="ui right floated header">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+              <li>
+                <a href="#">
+                  <i class="fa fa-user"></i> Admin User <i class="fa fa-chevron-down" ></i>
+                </a>
+                <ul>
+                  <li>
+                    <a href="#">DashBoard</a>
+                  </li>
+                  <li>
+                    <a class="logout" href="#">
+                      Logout
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </header>
         );
     }   
 }

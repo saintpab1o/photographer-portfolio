@@ -20,7 +20,7 @@ class App extends React.Component{
       <br></br>
       <br></br>
       <br></br>
-       <Contact />
+       {/* <Contact /> */}
       </div>
     );
   }
