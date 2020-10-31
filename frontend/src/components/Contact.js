@@ -58,6 +58,12 @@ class Contact extends React.Component{
                   <a href="#">
                     <li>Booking</li>
                   </a>
+                  <a href="#">
+                    <li>Services</li>
+                  </a>
+                  <a href="#">
+                    <li>Events</li>
+                  </a>
                 </ul>
               </div>
 
