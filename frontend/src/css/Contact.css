@@ -1,4 +1,4 @@
-/* * {
+* {
     box-sizing: border-box;
 }
 html , body{
@@ -23,9 +23,9 @@ html , body{
 
 .footer .footer-content .footer-section{
     flex: 1;
- 
     padding: 25px
 }
+
 
 
  .footer .footer-bottom{
@@ -44,24 +44,72 @@ html , body{
     color: #e1e1e1;
    font-size: 18px;  
 }
+
+.footer .footer-content .links ul a{
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    transition: all .4s;
+}
+.footer .footer-content .links ul a:hover{
+    color: white;
+    margin-left:15px;
+    transition:  all .4s;
+}
+
+.contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+ 
+}
+
 .contact a{
     color: #e1e1e1;  
 }
-.contact-form-container{
-  margin-top: 1.5%;
+.socials span{
+   border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 7px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 1.4em;
+    display: inline-block;
+    border-radius: 5px;
 }
 
-.logo-text span{
-    color: teal;
+.socials span:hover{
+  color: white;
+    border: 1px solid white;
+    transition: all .7s;
 }
+
+
+
+.logo-text span{
+    color: #999999;
+}
+/* .contact-form{
+    border: 1px solid red ;
+} */
 
 .footer .footer-content .contact-form .contact-input{
     
     background: #222222;
     color: gray;
-    margin-bottom: 2px;
-    line-height: 1.7rem;
     border: none;
+    margin-bottom: 5px;
+     /* line-height: 1.2rem; */
+    /* padding: 1rem 1.2rem;  */  
+}
+.footer .footer-content .contact-form .contact-input:focus{
+    background: black;
+    color: white;
+}
+.contact-input-message{
+    font-family: sans-serif;
+    line-height: 1.5rem; 
 }
 
 
@@ -70,7 +118,7 @@ html , body{
     display: block;
     width: 100%;
     border-radius: 5px;
-    line-height: 1.5rem;
+    
     outline: none;
     border: 1px solid black;
 }
@@ -78,9 +126,10 @@ html , body{
 
 
 .btn-big{
-    margin-top: 1%;
+    
     padding: .3rem;
     line-height: 1.2rem;
+   
 }
 .btn:hover{
     color: white;
@@ -90,4 +139,4 @@ html , body{
 
 .contact-btn{
     float: right;
-} */
+}

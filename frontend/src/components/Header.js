@@ -11,7 +11,7 @@ class Header extends React.Component {
 
 
 switchClass = () => {
-        this.refs.navbar.classList.toggle('showing');
+        this.refs.nav.classList.toggle('showing');
     }
 
 
@@ -28,7 +28,7 @@ switchClass = () => {
         </div>
 
         <i class="fa fa-bars menu-toggle" onClick={this.switchClass}></i>
-        <ul ref="navbar" class="nav">
+        <ul ref="nav" class="nav">
           <li>
             <a href="#">Home</a>
           </li>
@@ -36,7 +36,7 @@ switchClass = () => {
             <a href="#">About</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#">Catalog</a>
           </li>
 
           <li>
@@ -44,7 +44,7 @@ switchClass = () => {
               {/* <i class="fa fa-user"></i> Admin User{" "}
               <i class="fa fa-chevron-down"></i> */}Booking
             </a>
-            <ul>
+            {/* <ul>
               <li>
                 <a href="#">DashBoard</a>
               </li>
@@ -53,7 +53,7 @@ switchClass = () => {
                   Logout
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </li>
         </ul>
       </header>

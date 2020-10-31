@@ -11,21 +11,23 @@ class Contact extends React.Component{
                   <span>Head</span>
                   <text>shots.</text>
                 </h1>
-                <br></br>
-                
                 <p>
-                  Pm Shoots is a fictional website to display design work for
-                  potential photographer portfolios, each portfoilio site can be
-                  customized to specifactions. Thanks for stopping by!
+                  Headshots is a fictional website to display design work for
+                  potential photographer portfolios, each portfoilio site can
+                  becustomized to specifactions. Thanks for stopping by!
                 </p>
+                <br></br>
                 <div className="contact">
-                  <a href="#">
-                    <i class="fas fa-phone"></i> 631-555-5555
-                  </a>
-                  <br></br>
-                  <a href="#">
-                    <i class="fas fa-envelope"></i> pm@pmshoots.com
-                  </a>
+                  <span>
+                    <a href="#">
+                      <i class="fas fa-phone"></i> 631-555-5555
+                    </a>
+                  </span>
+                  <span>
+                    <a href="#">
+                      <i class="fas fa-envelope"></i> pm@pmshoots.com
+                    </a>
+                  </span>
                 </div>
                 <div className="socials">
                   <span>
@@ -56,12 +58,6 @@ class Contact extends React.Component{
                   <a href="#">
                     <li>Booking</li>
                   </a>
-                  <a href="#">
-                    <li>Terms and Conditions</li>
-                  </a>
-                  <a href="#">
-                    <li>More</li>
-                  </a>
                 </ul>
               </div>
 
@@ -84,7 +80,7 @@ class Contact extends React.Component{
                     ></input>
                     <textarea
                       name="message"
-                      className="text-input contact-input"
+                      className="text-input contact-input contact-input-message"
                       placeholder="Place your request here!"
                     ></textarea>
                     <button type="submit" class="btn btn-big contact-btn">
