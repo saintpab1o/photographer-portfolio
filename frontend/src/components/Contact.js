@@ -16,7 +16,7 @@ class Contact extends React.Component{
                   potential photographer portfolios, each portfoilio site can
                   becustomized to specifactions. Thanks for stopping by!
                 </p>
-                <br></br>
+              
                 <div className="contact">
                   <span>
                     <a href="#">

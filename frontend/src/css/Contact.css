@@ -12,12 +12,12 @@ html , body{
 .footer{
     background: #3b3b3b;
     color: #e1e1e1;
-    height: 350px;
+    height: 375px;
     position: relative;
 }
 .footer .footer-content{
    
-    height: 300px;
+    height: 350px;
     display: flex;
 }
 
@@ -109,7 +109,7 @@ html , body{
 }
 .contact-input-message{
     font-family: sans-serif;
-    line-height: 1.5rem; 
+    line-height: 2rem; 
 }
 
 
@@ -126,14 +126,14 @@ html , body{
 
 
 .btn-big{
-    
+    margin-top: 1%;
     padding: .3rem;
     line-height: 1.2rem;
    
 }
 .btn:hover{
     color: white;
-    background-color: #222222;
+    background-color: #222222
 }
 
 
