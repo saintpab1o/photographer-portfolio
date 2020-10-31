@@ -113,6 +113,9 @@ header .menu-toggle{
         width: 100%;
         
 }
+.showing{
+    display: block;
+}
 
 header ul li ul li a{
     padding: 10px;

@@ -19,6 +19,8 @@ class ImageGroup extends React.Component {
     this.getGroupImages();
   };
 
+
+
   getGroupImages = () => {
     axios
       .get("http://localhost:4000/api/groupname")

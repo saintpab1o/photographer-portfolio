@@ -3,18 +3,21 @@ import '../css/Header.css';
 
 
 class Header extends React.Component{
+  
 
-
+    // toggleClass = () =>{
+    
+    // }
   
     render(){
         return (
           <header>
-            <div class="logo">
+            <div class="logo" >
               <h1 class="logo-text">
                 <span>Head</span>shots
               </h1>
             </div>
-            <i id="menu-toggle" class="fa fa-bars menu-toggle"></i>
+            <i class="fa fa-bars menu-toggle" onClick={this.toggleClass}></i>
             <ul class="nav">
               <li>
                 <a href="#">Home</a>
@@ -28,7 +31,8 @@ class Header extends React.Component{
 
               <li>
                 <a href="#">
-                  <i class="fa fa-user"></i> Admin User <i class="fa fa-chevron-down" ></i>
+                  <i class="fa fa-user"></i> Admin User{" "}
+                  <i class="fa fa-chevron-down"></i>
                 </a>
                 <ul>
                   <li>
