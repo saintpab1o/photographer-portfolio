@@ -12,18 +12,21 @@ html , body{
 .footer{
     background: #3b3b3b;
     color: #e1e1e1;
-    height: 360px;
+    height: 370px;
     position: relative;
+  
 }
 .footer .footer-content{
    
     height: 350px;
     display: flex;
+    
 }
 
 .footer .footer-content .footer-section{
     flex: 1;
-    padding: 27px
+    padding: 27px;
+    
 }
 
 
@@ -143,6 +146,12 @@ html , body{
 }
 
 @media only screen and (max-width: 850px){
+.footer{
+    height: auto;
+}
 
-
+    .footer .footer-content{
+    height: auto;
+    flex-direction: column;
+    }
 }
