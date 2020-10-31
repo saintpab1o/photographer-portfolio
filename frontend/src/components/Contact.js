@@ -11,7 +11,7 @@ class Contact extends React.Component{
                   <span>Head</span>
                   <text>shots.</text>
                 </h1>
-                <p>
+                <p className="logo-text-p"> 
                   Headshots is a fictional website to display design work for
                   potential photographer portfolios, each portfoilio site can
                   becustomized to specifactions. Thanks for stopping by!
