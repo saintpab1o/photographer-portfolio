@@ -10,7 +10,7 @@ body{
 
 
 header{
-    background: #008489;
+    background: #333333;
     height: 66px;
 }
 header *{
@@ -28,7 +28,7 @@ header .logo-text{
 }
 
 header .logo-text span{
-    color: #10bfc5;
+    color: #999999;
 }
 
 header ul{
@@ -67,7 +67,7 @@ header ul li ul li{
 header ul li ul li a{
     padding: 10px;
     background: white;
-    color: #444;
+    color: blue;
 }
 
 header ul li ul li a:hover{
@@ -78,12 +78,12 @@ header ul li ul li a:hover{
 
 header ul li a{
     display: block;
-    padding: 21px;
+    padding: 23px;
     font-size: 1.1em;
     text-decoration: none;
 }
 header ul li a:hover{
-    background: #013b3d;
+    background: #000000;
     transition: .5s;
 }
 
@@ -98,7 +98,7 @@ header .menu-toggle{
     }
     header ul{
         width: 100%;
-        background: #0e94a0;
+        background: #333333;
         max-height: 0px;
         overflow: hidden;
     }
@@ -121,10 +121,11 @@ header .menu-toggle{
 
 header ul li ul li a{
     padding: 10px;
-    background: #0e94a0;
+    background: #333333;
     color: white;
     padding-left:50px;
 }
+
 header .menu-toggle{
     display: block;
     position: absolute;
