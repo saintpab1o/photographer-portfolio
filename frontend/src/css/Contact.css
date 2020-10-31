@@ -30,7 +30,6 @@ html , body{
 }
 
 
-
  .footer .footer-bottom{
     background-color: #222222;
     color: #e1e1e1;
@@ -41,11 +40,14 @@ html , body{
     left: 0px;
     padding-top: 9px;
     width: 100%;
+    
 }
 
 #footer-links a{
     color: #e1e1e1;
    font-size: 18px;  
+   padding-top: 10px;
+
 }
 
 .footer .footer-content .links ul a{
@@ -53,16 +55,17 @@ html , body{
     font-size: 1.2em;
     margin-bottom: 10px;
     transition: all .4s;
+    
 }
 .footer .footer-content .links ul a:hover{
     color: white;
-    margin-left:15px;
+    margin-left: 15px;
     transition:  all .4s;
 }
 
 .contact span{
     display: block;
-    font-size: 1.1em;
+    font-size: 1em;
     margin-bottom: 8px;
 }
 
@@ -90,10 +93,11 @@ html , body{
 
 .logo-text span{
     color: #999999;
+    
 }
 
 .logo-text-p{
-    padding-top: 35px;
+    padding-top: 20px;
 }
 
 
@@ -118,12 +122,13 @@ html , body{
 
 
 .text-input{
-    padding: .5rem ;
+  padding-top: 12px;
     display: block;
     width: 100%;
     border-radius: 5px;
     outline: none;
     border: 1px solid black;
+    
 }
 
 
@@ -131,17 +136,20 @@ html , body{
     margin-top: 1%;
     padding: .3rem;
     line-height: 1.2rem;
-   
+     
+    
 }
 .btn:hover{
     color: white;
-    background-color: #222222
+    background-color: #222222;
+    
 }
 
 
 .contact-btn{
     float: right;
     width: 100%;
+   
     
 }
 

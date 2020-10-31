@@ -47,7 +47,7 @@ class Contact extends React.Component{
 
               <div id="footer-links" className="footer-section links">
                 <h1>Quick Links</h1>
-                <br></br>
+               
                 <ul>
                   <a href="#">
                     <li>About</li>
