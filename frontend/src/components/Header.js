@@ -9,16 +9,11 @@ class Header extends React.Component {
     liked: false
 }
 
-
 switchClass = () => {
         this.refs.nav.classList.toggle('showing');
     }
 
-
-
-
   render() {
-
     return (
       <header>
         <div class="logo">
@@ -38,7 +33,6 @@ switchClass = () => {
           <li>
             <a href="#">Catalog</a>
           </li>
-
           <li>
             <a href="#">
               {/* <i class="fa fa-user"></i> Admin User{" "}

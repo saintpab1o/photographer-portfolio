@@ -29,6 +29,7 @@ class Contact extends React.Component{
                     </a>
                   </span>
                 </div>
+
                 <div className="socials">
                   <span>
                     <i class="fab fa-facebook"></i>
@@ -105,6 +106,5 @@ class Contact extends React.Component{
         );
     }
 }
-
 
 export default Contact;
