@@ -18,7 +18,8 @@ switchClass = () => {
       <header>
         <div class="logo">
           <h1 class="logo-text">
-            <span>Head</span>shots
+            <i class="fas fa-camera"></i>
+            <span> Head</span>shots
           </h1>
         </div>
 

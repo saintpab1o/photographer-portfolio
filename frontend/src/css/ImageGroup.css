@@ -5,3 +5,8 @@ padding: 0;}
 .group-images{
    max-width: 50%;
 }
+
+img{
+vertical-align:bottom;
+
+}

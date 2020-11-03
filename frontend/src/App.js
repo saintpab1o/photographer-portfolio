@@ -13,13 +13,7 @@ class App extends React.Component{
       <div>
         <Header />
         <ImageGroup/>
-        <ImageList/>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+        {/* <ImageList/> */}
        <Contact />
       </div>
     );
