@@ -29,7 +29,6 @@ html , body{
     
 }
 
-
  .footer .footer-bottom{
     background-color: #222222;
     color: #e1e1e1;
@@ -39,24 +38,22 @@ html , body{
     bottom: 0px;
     left: 0px;
     padding-top: 9px;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 #footer-links a{
     color: #e1e1e1;
    font-size: 18px;  
    padding-top: 10px;
-
 }
 
 .footer .footer-content .links ul a{
     display: block;
     font-size: 1.2em;
     margin-bottom: 10px;
-    transition: all .4s;
-    
+    transition: all .4s;  
 }
+
 .footer .footer-content .links ul a:hover{
     color: white;
     margin-left: 15px;

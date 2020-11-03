@@ -8,13 +8,13 @@ const Contact = require('../../models/Contact')
 
 
 
-router.get("/contact", (req, res) => {
+router.get("/", (req, res) => {
   Contact.find()
     .then((contact) => res.json(contact))
-    .catch((err) => res.status(404).json({ nocontactsfound: "No contacts found" }));
+    .catch((err) => res.status(404).json({ pageNotFound: "No page found." }));
 });
 
-router.post("/contact" , (req,res) => {
+router.post("/" , (req,res) => {
   const contact = new Contact ({
     name: req.body.name,
     email: req.body.email,
