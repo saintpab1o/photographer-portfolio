@@ -37,7 +37,8 @@ switchClass = () => {
           <li>
             <a href="#4">
               {/* <i className="fa fa-user"></i> Admin User{" "}
-              <i class="fa fa-chevron-down"></i> */}Booking
+              <i class="fa fa-chevron-down"></i> */}
+              Booking
             </a>
             {/* <ul>
               <li>
@@ -49,6 +50,9 @@ switchClass = () => {
                 </a>
               </li>
             </ul> */}
+          </li>
+          <li>
+            <a href="#21">Contact</a>
           </li>
         </ul>
       </header>

@@ -9,17 +9,17 @@ class Contact extends React.Component{
               <div className="footer-section about">
                 <h1 className="logo-text">
                   <span>Head</span>
-                shots.
+                  shots.
                 </h1>
-                <p className="logo-text-p"> 
+                <p className="logo-text-p">
                   Headshots is a fictional website to display design work for
                   potential photographer portfolios, each portfoilio site can
                   becustomized to specifactions. Thanks for stopping by!
                 </p>
-              
-                <div className="contact">
+
+                <div className="contact" href="#21">
                   <span>
-                    <a href="#5">
+                    <a href="#20">
                       <i className="fas fa-phone"></i> 631-555-5555
                     </a>
                   </span>
@@ -48,7 +48,7 @@ class Contact extends React.Component{
 
               <div id="footer-links" className="footer-section links">
                 <h1>Quick Links</h1>
-               
+
                 <ul>
                   <a href="#7">
                     <li>About</li>
@@ -100,7 +100,7 @@ class Contact extends React.Component{
             </div>
 
             <div className="footer-bottom">
-              &copy; oneaternity.com | Designed by PM.
+              &copy; HeadShots.com | Designed by Paul Magioncalda.
             </div>
           </div>
         );
