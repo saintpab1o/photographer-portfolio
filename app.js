@@ -6,6 +6,14 @@ const bodyParser = require("body-parser");
 const contact = require('./routes/api/contacts')
 const group = require('./routes/api/imageGroups')
 var cors = require("cors");
+const path = require("path");
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("frontend/build"));
+  app.get("/", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
+  });
+}
 
 
 

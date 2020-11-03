@@ -13,6 +13,7 @@ vertical-align:bottom;
 }
 
 .group-images:hover {
+    cursor: pointer;
     -webkit-filter: brightness(70%);
     transition: all 1s ease; 
 }
