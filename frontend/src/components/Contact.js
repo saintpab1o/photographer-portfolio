@@ -9,7 +9,7 @@ class Contact extends React.Component{
               <div className="footer-section about">
                 <h1 className="logo-text">
                   <span>Head</span>
-                  <text>shots.</text>
+                shots.
                 </h1>
                 <p className="logo-text-p"> 
                   Headshots is a fictional website to display design work for
@@ -19,29 +19,29 @@ class Contact extends React.Component{
               
                 <div className="contact">
                   <span>
-                    <a href="#">
-                      <i class="fas fa-phone"></i> 631-555-5555
+                    <a href="#5">
+                      <i className="fas fa-phone"></i> 631-555-5555
                     </a>
                   </span>
                   <span>
-                    <a href="#">
-                      <i class="fas fa-envelope"></i> pm@pmshoots.com
+                    <a href="#12">
+                      <i className="fas fa-envelope"></i> pm@pmshoots.com
                     </a>
                   </span>
                 </div>
 
                 <div className="socials">
                   <span>
-                    <i class="fab fa-facebook"></i>
+                    <i className="fab fa-facebook"></i>
                   </span>
                   <span>
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                   </span>
                   <span>
-                    <i class="fab fa-twitter"></i>
+                    <i className="fab fa-twitter"></i>
                   </span>
                   <span>
-                    <i class="fab fa-youtube"></i>
+                    <i className="fab fa-youtube"></i>
                   </span>
                 </div>
               </div>
@@ -50,19 +50,19 @@ class Contact extends React.Component{
                 <h1>Quick Links</h1>
                
                 <ul>
-                  <a href="#">
+                  <a href="#7">
                     <li>About</li>
                   </a>
-                  <a href="#">
+                  <a href="#8">
                     <li>Catalog</li>
                   </a>
-                  <a href="#">
+                  <a href="#9">
                     <li>Booking</li>
                   </a>
-                  <a href="#">
+                  <a href="#10">
                     <li>Services</li>
                   </a>
-                  <a href="#">
+                  <a href="#11">
                     <li>Events</li>
                   </a>
                 </ul>
@@ -90,8 +90,8 @@ class Contact extends React.Component{
                       className="text-input contact-input contact-input-message"
                       placeholder="Place your request here!"
                     ></textarea>
-                    <button type="submit" class="btn btn-big contact-btn">
-                      <i class="fas fa-envelope"></i>
+                    <button type="submit" className="btn btn-big contact-btn">
+                      <i className="fas fa-envelope"></i>
                       Send
                     </button>
                   </form>

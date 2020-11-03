@@ -4,7 +4,7 @@ import WTF2 from "../portfolio-images/wtfcity/IMG_8321.jpg";
 import Witch from "../portfolio-images/halloween/IMG_9270.jpg";
 import Witch2 from "../portfolio-images/halloween/IMG_0076.jpg";
 import '../css/ImageGroup.css'
-import axios from 'axios';
+// import axios from 'axios';
 
 class ImageGroup extends React.Component {
   state = {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import ImageGroup from './components/ImageGroup';
-import ImageList from './components/ImageList';
+// import ImageList from './components/ImageList';
 import Contact from'./components/Contact';
 
 

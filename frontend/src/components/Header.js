@@ -16,27 +16,27 @@ switchClass = () => {
   render() {
     return (
       <header>
-        <div class="logo">
-          <h1 class="logo-text">
-            <i class="fas fa-camera"></i>
+        <div className="logo">
+          <h1 className="logo-text">
+            <i className="fas fa-camera"></i>
             <span> Head</span>shots
           </h1>
         </div>
 
-        <i class="fa fa-bars menu-toggle" onClick={this.switchClass}></i>
-        <ul ref="nav" class="nav">
+        <i className="fa fa-bars menu-toggle" onClick={this.switchClass}></i>
+        <ul ref="nav" className="nav">
           <li>
-            <a href="#">Home</a>
+            <a href="#1">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#2">About</a>
           </li>
           <li>
-            <a href="#">Catalog</a>
+            <a href="#3">Catalog</a>
           </li>
           <li>
-            <a href="#">
-              {/* <i class="fa fa-user"></i> Admin User{" "}
+            <a href="#4">
+              {/* <i className="fa fa-user"></i> Admin User{" "}
               <i class="fa fa-chevron-down"></i> */}Booking
             </a>
             {/* <ul>
@@ -44,7 +44,7 @@ switchClass = () => {
                 <a href="#">DashBoard</a>
               </li>
               <li>
-                <a class="logout" href="#">
+                <a className="logout" href="#">
                   Logout
                 </a>
               </li>
