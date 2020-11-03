@@ -7,10 +7,9 @@ import '../css/ImageGroup.css'
 import axios from 'axios';
 
 class ImageGroup extends React.Component {
-
   state = {
-    groups:[]
-    }
+    groups: [],
+  };
   // }
   // when you click the imagge
   // query the db
@@ -18,28 +17,43 @@ class ImageGroup extends React.Component {
   // set state of srcs
   // map over array and render
 
-  componentDidMount = () => {
-    this.getGroupImages();
-  };
+  // componentDidMount = () => {
+  //   this.getGroupImages();
+  // };
 
-  getGroupImages = () => {
-    axios
-      .get("http://localhost:4000/api/groupname")
-      .then((responce) => {
-        const data = responce.data;
-        this.setState({groups: data})
-       
-      })
-      .catch(() => {
-        alert("error retrieving data");
-      });
-  };
+  // getGroupImages = () => {
+  //   axios
+  //     .get("http://localhost:4000/api/groupname")
+  //     .then((responce) => {
+  //       const data = responce.data;
+  //       this.setState({groups: data})
+
+  //     })
+  //     .catch(() => {
+  //       alert("error retrieving data");
+  //     });
+  // };
+
+  loadWTfCity = () => {
+    
+     
+     
+    <div>
+      <img className="group-images" src={WTF} alt="wtfcity" />
+      <img className="group-images" src={WTF2} alt="wtfcity" />
+    </div>
+    
+      
+    }
+  
+  
+
+  
 
   render() {
-    
     return (
-      <div onClick={() => this.getGroupImages()}>
-        <img className="group-images" src={WTF} alt="wtfcity" />
+      <div>
+        <img className="group-images"  src={WTF} alt="wtfcity" />
         <img className="group-images" src={Witch} alt="10-31-20" />
         <img className="group-images" src={Witch2} alt="10-31-20" />
         <img className="group-images" src={WTF2} alt="wtfcity" />

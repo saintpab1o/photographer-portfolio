@@ -9,4 +9,10 @@ padding: 0;}
 img{
 vertical-align:bottom;
 
+
+}
+
+.group-images:hover {
+    -webkit-filter: brightness(70%);
+    transition: all 1s ease; 
 }
