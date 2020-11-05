@@ -26,16 +26,16 @@ switchClass = () => {
         <i className="fa fa-bars menu-toggle" onClick={this.switchClass}></i>
         <ul ref="nav" className="nav">
           <li>
-            <a href="#1">Home</a>
+            <a href="1">Home</a>
           </li>
           <li>
-            <a href="#2">About</a>
+            <a href="2">About</a>
           </li>
           <li>
-            <a href="#3">Catalog</a>
+            <a href="3">Catalog</a>
           </li>
           <li>
-            <a href="#4">
+            <a href="4">
               {/* <i className="fa fa-user"></i> Admin User{" "}
               <i class="fa fa-chevron-down"></i> */}
               Booking
