@@ -34,22 +34,12 @@ class ImageGroup extends React.Component {
   //     });
   // };
 
-  loadWTfCity = () => {
-    
-     
-     
+  loadWTfCity = () => { 
     <div>
       <img className="group-images" src={WTF} alt="wtfcity" />
       <img className="group-images" src={WTF2} alt="wtfcity" />
-    </div>
-    
-      
+    </div> 
     }
-  
-  
-
-  
-
   render() {
     return (
       <div>
