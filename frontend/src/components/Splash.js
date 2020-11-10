@@ -7,7 +7,11 @@ import ImageGroup from './ImageGroup';
 class Splash extends React.Component{
     render(){
         return (
-
+            <div>
+                <Header/>
+                <ImageGroup/>
+                <Contact/>
+            </div>
         )
     }
 }
