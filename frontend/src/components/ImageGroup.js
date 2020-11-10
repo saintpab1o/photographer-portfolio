@@ -56,8 +56,12 @@ class ImageGroup extends React.Component {
         <a href="http://localhost:3000/wtfcity">
           <img className="group-images" src={WTF} alt="wtfcity" />
         </a>
-        <img className="group-images" src={Witch} alt="halloween" />
-        <img className="group-images" src={Witch2} alt="halloween" />
+        <a href="http://localhost:3000/10.31">
+          <img className="group-images" src={Witch} alt="halloween" />
+        </a>
+        <a href="http://localhost:3000/10.31">
+          <img className="group-images" src={Witch2} alt="halloween" />
+        </a>
         <a href="http://localhost:3000/wtfcity">
           <img className="group-images" src={WTF2} alt="wtfcity" />
         </a>

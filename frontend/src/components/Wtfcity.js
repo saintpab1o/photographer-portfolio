@@ -8,7 +8,7 @@ import WTF6 from "../portfolio-images/wtfcity/IMG_8212.jpg";
 import WTF7 from "../portfolio-images/wtfcity/IMG_8084.jpg";
 import Header from './Header';
 import Contact from './Contact';
-import '../css/Wtfcity.css'
+import '../css/ImageShow.css'
 
 class Wtfcity extends React.Component{
     render(){
@@ -16,44 +16,37 @@ class Wtfcity extends React.Component{
           <div>
             <Header />
             <img
-              className="group-images-wtf"
-              value="wtfcity"
+              className="group-images-list"           
               src={WTF}
               alt="wtfcity"
             />
             <img
-              className="group-images-wtf"
-              value="wtfcity"
+              className="group-images-list"         
               src={WTF2}
               alt="wtfcity"
             />
             <img
-              className="group-images-wtf"
-              value="wtfcity"
+              className="group-images-list"
               src={WTF4}
               alt="wtfcity"
             />
             <img
-              className="group-images-wtf"
-              value="wtfcity"
+              className="group-images-list"
               src={WTF3}
               alt="wtfcity"
             />
             <img
-              className="group-images-wtf"
-              value="wtfcity"
+              className="group-images-list"
               src={WTF5}
               alt="wtfcity"
             />
             <img
-              className="group-images-wtf"
-              value="wtfcity"
+              className="group-images-list"
               src={WTF6}
               alt="wtfcity"
             />
             <img
-              className="group-images-wtf"
-              value="wtfcity"
+              className="group-images-list"
               src={WTF7}
               alt="wtfcity"
             />
