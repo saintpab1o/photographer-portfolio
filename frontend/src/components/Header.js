@@ -52,7 +52,7 @@ switchClass = () => {
             </ul> */}
           </li>
           <li>
-            <a href="#21">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </header>

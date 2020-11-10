@@ -4,7 +4,7 @@ import '../css/Contact.css';
 class Contact extends React.Component{
     render(){
         return (
-          <div className="footer">
+          <div id="contact" className="footer">
             <div className="footer-content">
               <div className="footer-section about">
                 <h1 className="logo-text">

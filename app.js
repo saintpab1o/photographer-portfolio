@@ -38,7 +38,7 @@ app.use("/api", group);
 
 
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 
 app.listen(port, () => console.log(`Server is running on port ${port}`));
 
