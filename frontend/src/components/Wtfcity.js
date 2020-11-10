@@ -7,7 +7,7 @@ import WTF5 from "../portfolio-images/wtfcity/IMG_8065.jpg";
 import WTF6 from "../portfolio-images/wtfcity/IMG_8212.jpg";
 import Header from './Header';
 import Contact from './Contact';
-import '../css/Wtfcity.css';
+import '../css/Wtfcity.css'
 
 class Wtfcity extends React.Component{
     render(){
