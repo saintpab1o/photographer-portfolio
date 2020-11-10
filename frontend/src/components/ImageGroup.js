@@ -13,9 +13,9 @@ class ImageGroup extends React.Component {
     super(props);
 
     this.state = { 
-      imageGroup: [] };
-
-      
+      imageGroup: [],
+      term: '1' };   
+     
   }
 
   // }
@@ -42,16 +42,13 @@ class ImageGroup extends React.Component {
     });
   }
 
-  // setSearchParam(alt){
-  // this.setState({ searchParam: });
-  
-    
-  // }
 
   render() {
     return (
       <div>
-        <img className="group-images" src={WTF} alt="wtfcity"/>
+        <img 
+        className="group-images" value='wtfcity' src={WTF} alt="wtfcity"/>
+         
         <img className="group-images" src={Witch} alt="halloween" />
         <img className="group-images" src={Witch2} alt="halloween" />
         <img className="group-images" src={WTF2} alt="wtfcity" />
