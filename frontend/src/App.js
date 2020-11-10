@@ -4,6 +4,8 @@ import React from 'react';
 // import Contact from'./components/Contact';
 import About from './components/About';
 import Splash from './components/Splash';
+import Catalog from './components/Catalog';
+import Booking from './components/Booking';
 import { BrowserRouter, Route  } from 'react-router-dom';
 
 
@@ -15,7 +17,8 @@ class App extends React.Component{
         <BrowserRouter>
           <Route exact path="/" component={Splash} />
           <Route exact path="/about" component={About} />
-          {/* <Route exact path="/booking" component={Booking} /> */}
+          <Route exact path="/catalog" component={Catalog} />
+          <Route exact path="/booking" component={Booking} />
         </BrowserRouter>
       </div>
     );

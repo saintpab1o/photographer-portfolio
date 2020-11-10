@@ -52,7 +52,7 @@ class ImageGroup extends React.Component {
         <img className="group-images" src={Witch} alt="halloween" />
         <img className="group-images" src={Witch2} alt="halloween" />
         <img className="group-images" src={WTF2} alt="wtfcity" />
-       
+       {this.dataTable()}
       </div>
     );
   }

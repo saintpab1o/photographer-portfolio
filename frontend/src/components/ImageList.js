@@ -16,7 +16,6 @@ class ImageList extends React.Component {
       searchParam: "",
     };
   }
-
   
 
   render() {
