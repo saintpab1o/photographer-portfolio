@@ -6,7 +6,6 @@ import Contact from '../components/Contact'
 class About extends React.Component{
     render(){
         return(
-        
         <div>
             <Header/>
             ABOUT PAGE
