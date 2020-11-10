@@ -61,7 +61,7 @@ class ImageGroup extends React.Component {
         <a href="http://localhost:3000/wtfcity">
           <img className="group-images" src={WTF2} alt="wtfcity" />
         </a>
-        {this.dataTable()}
+        {/* {this.dataTable()} */}
       </div>
     );
   }
