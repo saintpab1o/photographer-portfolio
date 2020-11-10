@@ -7,6 +7,7 @@ import Splash from './components/Splash';
 import Catalog from './components/Catalog';
 import Booking from './components/Booking';
 import { BrowserRouter, Route  } from 'react-router-dom';
+import Wtfcity from './components/Wtfcity';
 
 
 
@@ -19,6 +20,7 @@ class App extends React.Component{
           <Route exact path="/about" component={About} />
           <Route exact path="/catalog" component={Catalog} />
           <Route exact path="/booking" component={Booking} />
+          <Route exact path="/wtfcity" component={Wtfcity} />
         </BrowserRouter>
       </div>
     );

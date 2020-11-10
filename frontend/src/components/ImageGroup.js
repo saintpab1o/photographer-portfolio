@@ -8,14 +8,16 @@ import axios from 'axios';
 import ImageList from './ImageList'
 import '../portfolio-images/General/reme_backdrop.jpg'
 
+
+
 class ImageGroup extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { 
+    this.state = {
       imageGroup: [],
-      term: '1' };   
-     
+      term: "1",
+    };
   }
 
   // }
@@ -43,16 +45,23 @@ class ImageGroup extends React.Component {
   }
 
 
+  
+
   render() {
+   
+    
+
     return (
       <div>
-        <img 
-        className="group-images" value='wtfcity' src={WTF} alt="wtfcity"/>
-         
+        <a href="http://localhost:3000/wtfcity">
+          <img className="group-images" src={WTF} alt="wtfcity" />
+        </a>
         <img className="group-images" src={Witch} alt="halloween" />
         <img className="group-images" src={Witch2} alt="halloween" />
-        <img className="group-images" src={WTF2} alt="wtfcity" />
-       {this.dataTable()}
+        <a href="http://localhost:3000/wtfcity">
+          <img className="group-images" src={WTF2} alt="wtfcity" />
+        </a>
+        {this.dataTable()}
       </div>
     );
   }
