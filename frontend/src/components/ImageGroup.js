@@ -5,13 +5,17 @@ import Witch from "../portfolio-images/halloween/IMG_9270.jpg";
 import Witch2 from "../portfolio-images/halloween/IMG_0076.jpg";
 import '../css/ImageGroup.css'
 import axios from 'axios';
+import ImageList from './ImageList'
+import '../portfolio-images/General/reme_backdrop.jpg'
 
 class ImageGroup extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      groups: [],
-    };
+
+    this.state = { 
+      imageGroup: [] };
+
+      
   }
 
   // }
@@ -25,21 +29,33 @@ class ImageGroup extends React.Component {
     axios
       .get("http://localhost:5000/api/groupname")
       .then((res) => {
-        this.setState({ usersCollection: res.data });
-        console.log(res.data)
+        this.setState({ imageGroup: res.data });
       })
       .catch(function (error) {
         console.log(error);
       });
   }
 
+  dataTable() {
+    return this.state.imageGroup.map((data, i) => {
+      return <ImageList obj={data} key={i} />;
+    });
+  }
+
+  // setSearchParam(alt){
+  // this.setState({ searchParam: });
+  
+    
+  // }
+
   render() {
     return (
       <div>
-        <img className="group-images" src={WTF} alt="wtfcity" />
+        <img className="group-images" src={WTF} alt="wtfcity"/>
         <img className="group-images" src={Witch} alt="halloween" />
         <img className="group-images" src={Witch2} alt="halloween" />
         <img className="group-images" src={WTF2} alt="wtfcity" />
+       
       </div>
     );
   }
