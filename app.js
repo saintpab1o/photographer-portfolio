@@ -1,4 +1,3 @@
-require("dotenv").config();
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -22,8 +21,6 @@ if (process.env.NODE_ENV === "production") {
 
 
 
-app.use("/", express.static(path.join
-  (__dirname, "/client/build")));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -92,10 +89,6 @@ router.post("/send", (req, res, next) => {
       });
     }
   });
-});
-
-app.get('*', (request, response) => {
-  response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
 
