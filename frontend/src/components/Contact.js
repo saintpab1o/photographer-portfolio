@@ -57,9 +57,9 @@ class Contact extends React.Component{
    })
    setTimeout(()=>{
      this.setState({
-       sent:false
+       sent:true
      })
-   },3000)
+   },1000)
  }
 
 
@@ -157,6 +157,9 @@ class Contact extends React.Component{
                       value={this.state.message}
                       onChange={this.handleMessage}
                     ></textarea>
+                    <div className={this.state.sent ? 'msgAppear': 'msg'}>
+                    Message has been sent!
+                    </div>
                     <button type="submit" className="btn btn-big contact-btn">
                       <i className="fas fa-envelope"></i>
                       Send

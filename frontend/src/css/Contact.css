@@ -148,3 +148,12 @@ html , body{
     flex-direction: column;
     }
 }
+
+.msg{
+    display:none
+}
+
+.msgAppear{
+    display:block;
+    color:white;
+}
