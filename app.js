@@ -35,9 +35,7 @@ app.get("/", (req, res) => {
 
 app.use("/api", contact);
 app.use("/api", group);
-app.use("/about");
-app.use("/catalog");
-app.use("/booking");
+
 
 
 
