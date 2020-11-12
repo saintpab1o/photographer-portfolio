@@ -1,35 +1,66 @@
 import React from 'react';
 import '../css/Contact.css';
-import e from 'express';
+import axios from 'axios';
+
 
 class Contact extends React.Component{
 
   state={
-    name:"",
-    email:"",
-    message:"",
+    name: "",
+    email: "",
+    message: "",
     sent:false
   }
 
-  handleName=() =>{
+  handleName=(e) =>{
     this.setState({
       name: e.target.value
     })
   }
 
-  handleEmail=() =>{
+  handleEmail=(e) =>{
     this.setState({
       email: e.target.value
     })
   }
 
-  handleMessage=() =>{
+  handleMessage=(e) =>{
     this.setState({
       message: e.target.value
     })
   }
 
-  resetForm
+ formSubmit=(e)=>{
+   e.preventDefault();
+   let data = {
+     name: this.state.name,
+     email: this.state.email,
+     message: this.state.message
+   }
+   axios.post(`/send`,data)
+   .then(rest=>{
+     this.setState({
+       send:true
+     },this.resetForm())
+   }).catch(()=>{
+     console.log('message not sent')
+   })
+
+ }
+
+ resetForm =()=>{
+   this.setState({
+     name:"",
+     email:"",
+     message:"",
+ 
+   })
+   setTimeout(()=>{
+     this.setState({
+       sent:false
+     })
+   },3000)
+ }
 
 
     render(){
@@ -102,14 +133,14 @@ class Contact extends React.Component{
                 <h1>Contact</h1>
                 <br></br>
                 <div className="contact-form-container">
-                  <form action="index.html" method="post">
+                  <form onSubmit={this.formSubmit}>
                     <input
                       className="text-input contact-input"
                       type="text"
                       name="name"
                       placeholder="Name"
                       value={this.state.name}
-                      onChange={this.handleMessage}
+                      onChange={this.handleName}
                     ></input>
                     <input
                       className="text-input contact-input"
