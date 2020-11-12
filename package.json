@@ -19,6 +19,7 @@
     "express": "^4.17.1",
     "jquery": "^3.5.1",
     "mongoose": "^5.10.9",
+    "nodemailer": "^6.4.15",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "validator": "^13.1.17"

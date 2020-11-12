@@ -36,6 +36,10 @@ app.get("/", (req, res) => {
 app.use("/api", contact);
 app.use("/api", group);
 
+app.get("/about", function (req, res) {
+  res.send("about");
+});
+
 
 
 
