@@ -8,6 +8,7 @@ var router = express.Router();
 var nodemailer = require("nodemailer");
 const creds = require("./config");
 const group = require('./routes/api/imageGroups')
+const about = require('./routes/api/about')
 var cors = require("cors");
 const path = require("path");
 
