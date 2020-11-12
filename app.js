@@ -42,7 +42,7 @@ app.get("/", (req, res) => {
 
 app.use("/api", contact);
 app.use("/api", group);
-app.use("/api/about", about);
+// app.use("/api/about", about);
 
 
 

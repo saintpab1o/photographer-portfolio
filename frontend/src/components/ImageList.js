@@ -1,7 +1,7 @@
 import React from 'react';
 // import axios from 'axios';
-import WTF from "../portfolio-images/wtfcity/IMG_8236.jpg";
-import WTF2 from "../portfolio-images/wtfcity/IMG_8321.jpg";
+// import WTF from "../portfolio-images/wtfcity/IMG_8236.jpg";
+// import WTF2 from "../portfolio-images/wtfcity/IMG_8321.jpg";
 import '../css/ImageList.css'
 
 

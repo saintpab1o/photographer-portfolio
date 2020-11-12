@@ -1,7 +1,37 @@
 import React from 'react';
 import '../css/Contact.css';
+import e from 'express';
 
 class Contact extends React.Component{
+
+  state={
+    name:"",
+    email:"",
+    message:"",
+    sent:false
+  }
+
+  handleName=() =>{
+    this.setState({
+      name: e.target.value
+    })
+  }
+
+  handleEmail=() =>{
+    this.setState({
+      email: e.target.value
+    })
+  }
+
+  handleMessage=() =>{
+    this.setState({
+      message: e.target.value
+    })
+  }
+
+  resetForm
+
+
     render(){
         return (
           <div id="contact" className="footer">
@@ -75,20 +105,26 @@ class Contact extends React.Component{
                   <form action="index.html" method="post">
                     <input
                       className="text-input contact-input"
-                      type="email"
+                      type="text"
                       name="name"
                       placeholder="Name"
+                      value={this.state.name}
+                      onChange={this.handleMessage}
                     ></input>
                     <input
                       className="text-input contact-input"
                       type="email"
                       name="email"
                       placeholder="E-mail"
+                      value={this.state.email}
+                      onChange={this.handleEmail}
                     ></input>
                     <textarea
                       name="message"
                       className="text-input contact-input contact-input-message"
                       placeholder="Place your request here!"
+                      value={this.state.message}
+                      onChange={this.handleMessage}
                     ></textarea>
                     <button type="submit" className="btn btn-big contact-btn">
                       <i className="fas fa-envelope"></i>
