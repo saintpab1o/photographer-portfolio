@@ -53,16 +53,16 @@ class ImageGroup extends React.Component {
 
     return (
       <div>
-        <a href="http://localhost:3000/wtfcity">
+        <a href="/wtfcity">
           <img className="group-images" src={WTF} alt="wtfcity" />
         </a>
-        <a href="http://localhost:3000/10.31">
+        <a href="/10.31">
           <img className="group-images" src={Witch} alt="halloween" />
         </a>
-        <a href="http://localhost:3000/10.31">
+        <a href="/10.31">
           <img className="group-images" src={Witch2} alt="halloween" />
         </a>
-        <a href="http://localhost:3000/wtfcity">
+        <a href="/wtfcity">
           <img className="group-images" src={WTF2} alt="wtfcity" />
         </a>
         {/* {this.dataTable()} */}
