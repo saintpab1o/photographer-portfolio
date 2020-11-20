@@ -16,6 +16,7 @@ class App extends React.Component{
   render(){
     return (
       <div>
+      
         <BrowserRouter>
           <Route exact path="/" component={Splash} />
           <Route exact path="/about" component={About} />
@@ -24,6 +25,7 @@ class App extends React.Component{
           <Route exact path="/wtfcity" component={Wtfcity} />
           <Route exact path="/10.31" component={Halloween}/>
         </BrowserRouter>
+         
       </div>
     );
   }
