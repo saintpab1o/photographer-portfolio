@@ -36,9 +36,7 @@ mongoose
 
   app.use(cors());
 
-app.get("/", (req, res) => {
-  res.send("Hello from Here");
-});
+app.use("/", express.static(path.join(__dirname, "/client/build")));
 
 
 app.use("/api", contact);
