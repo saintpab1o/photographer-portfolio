@@ -8,6 +8,7 @@ var router = express.Router();
 var nodemailer = require("nodemailer");
 const creds = require("./config");
 const group = require('./routes/api/imageGroups')
+const booking = require('./routes/api/booking')
 const about = require('./routes/api/about')
 var cors = require("cors");
 const path = require("path");
@@ -42,6 +43,7 @@ app.get("/", (req, res) => {
 
 app.use("/api", contact);
 app.use("/api", group);
+app.use("/api", booking);
 // app.use("/api/about", about);
 
 
