@@ -7,7 +7,7 @@ import Splash from './components/Splash';
 // import Catalog from './components/Catalog';
 import Booking from './components/Booking';
 // import Calender from './components/Calender';
-import { Route } from 'react-router-dom';
+import { Route, } from 'react-router-dom';
 import Wtfcity from './components/Wtfcity';
 import Halloween from './components/Halloween';
 
@@ -16,7 +16,7 @@ import Halloween from './components/Halloween';
 
 const App = () => (
   <div>
-    
+   
       <Route exact path="/" component={Splash} />
       <Route exact path="/about" component={About} />
       {/* <Route exact path="/catalog" component={Catalog} /> */}

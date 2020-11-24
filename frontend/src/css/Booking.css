@@ -3,19 +3,26 @@ body{
    margin:0;
   
 }
-
+.booking-heading{
+text-align: center;
+ background-color: lightgray;
+}
 .booking-form-container {
+  background-color: lightgray;
  
- padding: 70px 0;
-  /* border: 3px solid green; */
-  text-align: center;
+ padding: 80px 0;
+  display: flex;
+  
+  justify-content: center;
+ align-items: center;
+  
   
 
 }
 
 .booking-date-text{
    float: left;
-   /* border: 3px solid red; */
+/* border: 3px solid blue; */   
 }
 
 .booking-name-text{
@@ -43,10 +50,7 @@ body{
 .calender-active{
    display: block;
    margin-top: 20px;
-    
-  border: 3px solid green;
-
- 
+   border: 3px solid green;
    height: 320px;
    width: 320px;
 

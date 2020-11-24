@@ -55,7 +55,7 @@ class Booking extends React.Component {
       time: this.state.time,
     };
     axios
-      .post(`/send`, data)
+      .post(`/booking`, data)
       .then((rest) => {
         this.setState(
           {

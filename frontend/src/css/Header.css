@@ -39,7 +39,7 @@ header ul{
 }
 
 .showing{
-    max-height: 100em;
+    max-height: 100%;
 }
 
 header ul li{

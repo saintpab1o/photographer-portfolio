@@ -42,8 +42,8 @@ app.use("/", express.static(path.join(__dirname, "/client/build")));
 
 app.use("/api", contact);
 app.use("/api", group);
-app.use("/booking", booking);
-app.use("/about", about);
+app.use("/", booking);
+app.use("/", about);
 
 
 

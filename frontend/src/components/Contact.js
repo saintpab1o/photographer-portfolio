@@ -93,16 +93,16 @@ class Contact extends React.Component{
 
                 <div className="socials">
                   <span>
-                    <i className="fab fa-facebook"></i>
+                    <i className="fab fa-linkedin"></i>
+                  </span>
+                  <span>
+                    <i className="fab fa-github"></i>
+                  </span>
+                  <span>
+                    <i className="fab fa-angellist"></i>
                   </span>
                   <span>
                     <i className="fab fa-instagram"></i>
-                  </span>
-                  <span>
-                    <i className="fab fa-twitter"></i>
-                  </span>
-                  <span>
-                    <i className="fab fa-youtube"></i>
                   </span>
                 </div>
               </div>
@@ -157,7 +157,7 @@ class Contact extends React.Component{
                       value={this.state.message}
                       onChange={this.handleMessage}
                     ></textarea>
-                    <div className={this.state.sent ? 'msgAppear': 'msg'}>
+                    <div className={this.state.sent ? 'messageShow': 'message'}>
                     Message has been sent!
                     </div>
                     <button type="submit" className="btn btn-big contact-btn">
