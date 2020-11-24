@@ -3,6 +3,7 @@ import '../css/Contact.css';
 import axios from 'axios';
 
 
+
 class Contact extends React.Component{
 
   state={
@@ -81,29 +82,30 @@ class Contact extends React.Component{
                 <div className="contact" href="#21">
                   <span>
                     <a href="#20">
-                      <i className="fas fa-phone"></i> 631-555-5555
+                      <i className="fas fa-phone"></i> 631-559-9570
                     </a>
                   </span>
                   <span>
                     <a href="#12">
-                      <i className="fas fa-envelope"></i> pm@pmshoots.com
+                      <i className="fas fa-envelope"></i>{" "}
+                      paulmagioncalda@gmail.com
                     </a>
                   </span>
                 </div>
 
                 <div className="socials">
-                  <span>
+                  <a href="https://www.linkedin.com/in/paulmagioncalda/">
                     <i className="fab fa-linkedin"></i>
-                  </span>
-                  <span>
+                  </a>
+                  <a href="https://www.github.com/saintpab1o">
                     <i className="fab fa-github"></i>
-                  </span>
-                  <span>
+                  </a>
+                  <a href="https://angel.co/u/paul-magioncalda">
                     <i className="fab fa-angellist"></i>
-                  </span>
-                  <span>
-                    <i className="fab fa-instagram"></i>
-                  </span>
+                  </a>
+                  {/* <a>
+                    <i className="fas fa-file"></i>
+                  </a> */}
                 </div>
               </div>
 
@@ -129,7 +131,7 @@ class Contact extends React.Component{
                 </ul>
               </div>
 
-              <div className="footer-section contact-form">
+              <div href='contact'className="footer-section contact-form">
                 <h1>Contact</h1>
                 <br></br>
                 <div className="contact-form-container">
@@ -157,8 +159,10 @@ class Contact extends React.Component{
                       value={this.state.message}
                       onChange={this.handleMessage}
                     ></textarea>
-                    <div className={this.state.sent ? 'messageShow': 'message'}>
-                    Message has been sent!
+                    <div
+                      className={this.state.sent ? "messageShow" : "message"}
+                    >
+                      Message has been sent!
                     </div>
                     <button type="submit" className="btn btn-big contact-btn">
                       <i className="fas fa-envelope"></i>

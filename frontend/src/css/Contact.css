@@ -69,8 +69,9 @@ html , body{
 .contact a{
     color: #e1e1e1;  
 }
-.socials span{
+.socials a{
    border: 1px solid gray;
+   color: white;
     width: 45px;
     height: 41px;
     padding-top: 7px;
@@ -81,7 +82,7 @@ html , body{
     border-radius: 5px;
 }
 
-.socials span:hover{
+.socials a:hover{
   color: white;
     border: 1px solid white;
     transition: all .7s;
