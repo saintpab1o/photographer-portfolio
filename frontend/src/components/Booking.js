@@ -95,20 +95,20 @@ class Booking extends React.Component {
         <div className="booking-form-container">
           <form onSubmit={this.formSubmit}>
             <div className="booking-date-text">
-              Choose a Date{" "}
+              Date:{" "}
               <input type="date" onChange={this.handleDate}></input>
             </div>
 
             <br></br>
             <br></br>
             <div className="booking-name-text">
-              Name{" "}
+              Name:{" "}
               <input value={this.state.name} onChange={this.handleName}></input>
             </div>
             <br></br>
             <br></br>
             <div className="booking-email-text">
-              E-mail{" "}
+              E-mail:{" "}
               <input
                 value={this.state.email}
                 onChange={this.handleEmail}
@@ -117,10 +117,10 @@ class Booking extends React.Component {
             <br></br>
             <br></br>
             <div className="booking-time-text">
-              Time{" "}
+              Time:{" "}
               <input value={this.state.time} onChange={this.handleTime}></input>
             </div>
-            <button type="submit" className="btn btn-big contact-btn">
+            <button type="submit" className="booking-button">
               Make Appointment
             </button>
           </form>

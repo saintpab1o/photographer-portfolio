@@ -8,40 +8,54 @@ text-align: center;
  background-color: lightgray;
 }
 .booking-form-container {
+   display: flex;
+   /* flex-direction: column; */
+   justify-content: center;
   background-color: lightgray;
- 
  padding: 80px 0;
-  display: flex;
-  
-  justify-content: center;
- align-items: center;
-  
-  
 
+ /* border: 3px solid blue;   */
 }
 
 .booking-date-text{
-   float: left;
-/* border: 3px solid blue; */   
+   margin-left: 10px;
+ 
 }
 
 .booking-name-text{
-   float: left;
+   /* float: left; */
    /* border: 3px solid blue; */
 }
 
 .booking-email-text{
-   float: left;
+   /* float: left; */
    /* border: 3px solid green; */
 }
 
+.booking-button{
+margin-top: 20px;
+/* margin-right: 5px; */
+padding: 8px;
+width: 230px;
+}
+
+.booking-button:hover{
+margin-top: 20px;
+background-color: #383636;
+color: white;
+/* margin-right: 5px; */
+padding: 8px;
+width: 230px;
+}
+
 .booking-time-text{
-   float: left;
+   margin-left: 8px;
+   /* float: left; */
    /* border: 3px solid green;; */
 }
 
 
-.calender-hidden{
+/* .calender-hidden{
    display:none;
    height: 320px;
    width: 320px;
@@ -54,4 +68,4 @@ text-align: center;
    height: 320px;
    width: 320px;
 
-}
+} */
