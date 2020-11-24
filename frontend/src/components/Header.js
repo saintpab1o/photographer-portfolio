@@ -30,7 +30,7 @@ switchClass = () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="about">About</a>
+            <Link to="/about">About</Link>
           </li>
           {/* <li>
             <a href="Catalog">Catalog</a>

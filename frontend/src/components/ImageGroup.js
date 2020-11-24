@@ -7,6 +7,7 @@ import '../css/ImageGroup.css'
 import axios from 'axios';
 import ImageList from './ImageList'
 import '../portfolio-images/General/reme_backdrop.jpg'
+import { Link } from "react-router-dom";
 
 
 
@@ -53,18 +54,18 @@ class ImageGroup extends React.Component {
 
     return (
       <div>
-        <a href="/wtfcity">
+        <Link to="/wtfcity">
           <img className="group-images" src={WTF} alt="wtfcity" />
-        </a>
-        <a href="/10.31">
+        </Link>
+        <Link to="/10.31">
           <img className="group-images" src={Witch} alt="halloween" />
-        </a>
-        <a href="/10.31">
+        </Link>
+        <Link to="/10.31">
           <img className="group-images" src={Witch2} alt="halloween" />
-        </a>
-        <a href="/wtfcity">
+        </Link>
+        <Link to="/wtfcity">
           <img className="group-images" src={WTF2} alt="wtfcity" />
-        </a>
+        </Link>
         {/* {this.dataTable()} */}
       </div>
     );

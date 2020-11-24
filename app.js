@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -42,8 +42,8 @@ app.use("/", express.static(path.join(__dirname, "/client/build")));
 
 app.use("/api", contact);
 app.use("/api", group);
-app.use("/api/booking", booking);
-app.use("/api/about", about);
+app.use("/booking", booking);
+app.use("/about", about);
 
 
 
