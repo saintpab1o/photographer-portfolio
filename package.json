@@ -20,8 +20,11 @@
     "jquery": "^3.5.1",
     "mongoose": "^5.10.9",
     "nodemailer": "^6.4.15",
+    "react-calendar": "^3.2.1",
+    "react-datetime-picker": "^3.0.4",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
+    "react-time-picker": "^4.0.1",
     "validator": "^13.1.17"
   },
   "devDependencies": {
