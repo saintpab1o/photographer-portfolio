@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Header.css';
+import { Link } from "react-router-dom";
 
 
 class Header extends React.Component {
@@ -35,11 +36,10 @@ switchClass = () => {
             <a href="Catalog">Catalog</a>
           </li> */}
           <li>
-            <a href="booking">
-              {/* <i className="fa fa-user"></i> Admin User{" "}
+            <Link to="/booking">Booking</Link>
+            {/* <i className="fa fa-user"></i> Admin User{" "}
               <i class="fa fa-chevron-down"></i> */}
-              Booking
-            </a>
+
             {/* <ul>
               <li>
                 <a href="#">DashBoard</a>
