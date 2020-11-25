@@ -4,6 +4,7 @@ import axios from 'axios'
 import Header from './Header';
 import Contact from './Contact';
 
+
 class Booking extends React.Component {
   constructor(props) {
     super(props);
@@ -95,8 +96,7 @@ class Booking extends React.Component {
         <div className="booking-form-container">
           <form onSubmit={this.formSubmit}>
             <div className="booking-date-text">
-              Date:{" "}
-              <input type="date" onChange={this.handleDate}></input>
+              Date: <input type="date" onChange={this.handleDate}></input>
             </div>
 
             <br></br>
