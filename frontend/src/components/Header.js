@@ -23,7 +23,6 @@ switchClass = () => {
             <span> Head</span>shots
           </h1>
         </div>
-
         <i className="fa fa-bars menu-toggle" onClick={this.switchClass}></i>
         <ul ref="nav" className="nav">
           <li>
